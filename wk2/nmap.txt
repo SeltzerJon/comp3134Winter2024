@@ -1,0 +1,39 @@
+# 1
+root@comp3134-Winter2024:~# nmap 18.244.214.123
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-19 22:13 UTC
+Nmap scan report for server-18-244-214-123.sfo53.r.cloudfront.net (18.244.214.123)
+Host is up (0.061s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.95 seconds
+
+
+2.
+root@comp3134-Winter2024:~# nmap 99.79.139.11
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-19 22:14 UTC
+Nmap scan report for ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11)
+Host is up (0.0084s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.64 seconds
+
+
+3.
+root@comp3134-Winter2024:~# nmap 204.79.197.212
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-19 22:15 UTC
+Nmap scan report for a-0010.a-msedge.net (204.79.197.212)
+Host is up (0.0011s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+53/tcp  closed domain
+80/tcp  open   http
+443/tcp open   https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.79 seconds

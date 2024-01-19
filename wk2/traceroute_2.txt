@@ -1,0 +1,9 @@
+seltz@Seltzer MINGW64 ~ (master)
+$ tracert Seltzer
+
+Tracing route to Seltzer [fe80::47d7:437a:d829:796e%4]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  Seltzer.gbc.local [fe80::47d7:437a:d829:796e]
+
+Trace complete.

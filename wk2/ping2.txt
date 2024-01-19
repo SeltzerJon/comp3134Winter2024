@@ -1,0 +1,12 @@
+--- 18.244.214.4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 57.567/57.582/57.598/0.015 ms
+root@comp3134-Winter2024:~# ping 18.244.214.4 -w 3
+PING 18.244.214.4 (18.244.214.4) 56(84) bytes of data.
+64 bytes from 18.244.214.4: icmp_seq=1 ttl=246 time=57.6 ms
+64 bytes from 18.244.214.4: icmp_seq=2 ttl=246 time=57.6 ms
+64 bytes from 18.244.214.4: icmp_seq=3 ttl=246 time=57.7 ms
+
+--- 18.244.214.4 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 57.571/57.619/57.703/0.059 ms
