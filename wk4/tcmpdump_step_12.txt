@@ -1,0 +1,29 @@
+root@comp3134-Winter2024:~# tcpdump -i eth0 dst 159.203.5.106
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:10:34.879906 IP 198.96.85.163.5999 > comp3134-Winter2024.ssh: Flags [.], ack 582813311, win 517, length 0
+20:10:34.976384 IP 67.207.67.2.domain > comp3134-Winter2024.58048: 44993 NXDomain 0/1/1 (122)
+20:10:34.976959 IP 67.207.67.2.domain > comp3134-Winter2024.58048: 44993 NXDomain 0/1/0 (111)
+20:10:34.978500 IP 67.207.67.2.domain > comp3134-Winter2024.59248: 60051 NXDomain 0/1/1 (120)
+20:10:34.978775 IP 67.207.67.2.domain > comp3134-Winter2024.41633: 11748 NXDomain 0/1/1 (120)
+20:10:34.978776 IP 67.207.67.3.domain > comp3134-Winter2024.56594: Flags [S.], seq 3867014328, ack 995464837, win 65160, options [mss 1460,sackOK,TS val 1205275214 ecr 3647514731,nop,wscale 9], length 0
+20:10:34.979351 IP 67.207.67.3.domain > comp3134-Winter2024.56594: Flags [.], ack 47, win 128, options [nop,nop,TS val 1205275215 ecr 3647514731], length 0
+20:10:34.979428 IP 67.207.67.2.domain > comp3134-Winter2024.59248: 60051 NXDomain 0/1/0 (109)
+20:10:34.979445 IP 67.207.67.2.domain > comp3134-Winter2024.41633: 11748 NXDomain 0/1/0 (109)
+20:10:34.979465 IP 67.207.67.3.domain > comp3134-Winter2024.56594: Flags [P.], seq 1:112, ack 47, win 128, options [nop,nop,TS val 1205275215 ecr 3647514731], length 111 38603 NXDomain 0/1/0 (109)
+20:10:35.033709 IP 198.96.85.163.5999 > comp3134-Winter2024.ssh: Flags [.], ack 149, win 517, length 0
+20:10:35.079747 IP 67.207.67.3.domain > comp3134-Winter2024.56594: Flags [P.], seq 112:223, ack 91, win 128, options [nop,nop,TS val 1205275315 ecr 3647514832], length 111 30515 NXDomain 0/1/0 (109)
+20:10:35.079747 IP 67.207.67.2.domain > comp3134-Winter2024.45920: 61145 NXDomain 0/1/1 (120)
+20:10:35.080109 IP 67.207.67.2.domain > comp3134-Winter2024.41970: 17404 NXDomain 0/1/1 (120)
+20:10:35.080966 IP 67.207.67.2.domain > comp3134-Winter2024.41970: 17404 NXDomain 0/1/0 (109)
+20:10:35.081001 IP 67.207.67.2.domain > comp3134-Winter2024.45920: 61145 NXDomain 0/1/0 (109)
+20:10:35.082625 IP 67.207.67.2.domain > comp3134-Winter2024.46382: 62706 NXDomain 0/1/1 (120)
+20:10:35.082842 IP 67.207.67.2.domain > comp3134-Winter2024.47431: 7333 NXDomain 0/1/1 (120)
+20:10:35.083394 IP 67.207.67.3.domain > comp3134-Winter2024.56594: Flags [P.], seq 223:334, ack 135, win 128, options [nop,nop,TS val 1205275318 ecr 3647514835], length 111 10120 NXDomain 0/1/0 (109)
+20:10:35.083394 IP 67.207.67.2.domain > comp3134-Winter2024.46382: 62706 NXDomain 0/1/0 (109)
+20:10:35.083881 IP 67.207.67.2.domain > comp3134-Winter2024.47431: 7333 NXDomain 0/1/0 (109)
+20:10:35.102925 IP 198.96.85.163.5999 > comp3134-Winter2024.ssh: Flags [.], ack 1461, win 517, length 0
+^C
+22 packets captured
+24 packets received by filter
+0 packets dropped by kernel

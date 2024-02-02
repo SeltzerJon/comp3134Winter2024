@@ -1,0 +1,13 @@
+root@comp3134-Winter2024:~# tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:06:58.713889 IP 159.203.5.106.22 > 198.96.85.163.5999: Flags [P.], seq 582741687:582741795, ack 1428412068, win 501, length 108
+20:06:58.714091 IP 159.203.5.106.22 > 198.96.85.163.5999: Flags [P.], seq 108:144, ack 1, win 501, length 36
+20:06:58.714148 IP 159.203.5.106.22 > 198.96.85.163.5999: Flags [P.], seq 144:196, ack 1, win 501, length 52
+20:06:58.714196 IP 159.203.5.106.22 > 198.96.85.163.5999: Flags [P.], seq 196:264, ack 1, win 501, length 68
+20:06:58.714260 IP 159.203.5.106.22 > 198.96.85.163.5999: Flags [P.], seq 264:368, ack 1, win 501, length 104
+20:06:58.781599 IP 198.96.85.163.5999 > 159.203.5.106.22: Flags [.], ack 368, win 515, length 0
+^C
+6 packets captured
+22 packets received by filter
+0 packets dropped by kernel

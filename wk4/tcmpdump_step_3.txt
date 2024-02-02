@@ -1,0 +1,14 @@
+root@comp3134-Winter2024:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+19:55:17.012708 IP comp3134-Winter2024.ssh > 198.96.85.163.5999: Flags [P.], seq 578695139:578695247, ack 1428398416, win 501, length 108
+E...t.@.@..|...j.`U....o"~/.U#.PP........%t...j...E..:"c/j]..o}.....Y.m~.......SAp..x........H..D/.g. ..e...0M.....P.!..4V..,..z...ju..0.}f5...b.y..
+19:55:17.012804 IP comp3134-Winter2024.ssh > 198.96.85.163.5999: Flags [P.], seq 108:264, ack 1, win 501, length 156
+E...t.@.@..K...j.`U....o"~0OU#.PP.......mfc...M..'..O..$y=za..].x.T......r!CyQy!.....>...s......,.'W4....>.@{"s..I...e;...8..x..m.g_[.'M....    ......Z}|...`.....=.S.l.s4...'G@.y...d.c.@J....Y.qC..N.
+19:55:17.012855 IP comp3134-Winter2024.ssh > 198.96.85.163.5999: Flags [P.], seq 264:332, ack 1, win 501, length 68
+E..lt.@.@......j.`U....o"~0.U#.PP..........     A.Q.+AA.cA..*1L..p.....*&..#f,.Oh.X.z]......nb..-.y..h.;9.b2.7..
+19:55:17.012906 IP comp3134-Winter2024.ssh > 198.96.85.163.5999: Flags [P.], seq 332:368, ack 1, win 501, length 36
+E..Lt.@.@......j.`U....o"~1/U#.PP....w........p...X...#...oh.......J*.0.7..?
+^C
+4 packets captured
+29 packets received by filter
