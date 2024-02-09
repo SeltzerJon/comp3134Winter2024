@@ -1,0 +1,4 @@
+#6 Restarted on Droplet
+
+#7 
+ssh -p 2222 @159.203.5.106
