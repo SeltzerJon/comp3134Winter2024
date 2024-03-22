@@ -1,0 +1,2 @@
+Restricting access to files and folders bbefore HTML directory
+Avoiding attempt to access non-existent folders

@@ -1,0 +1,1 @@
+warning message indicates that there's an issue with the PHP script directory_traversal_part1.php attempting to open a directory called hello
