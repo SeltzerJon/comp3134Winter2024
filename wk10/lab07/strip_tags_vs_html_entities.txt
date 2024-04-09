@@ -1,0 +1,7 @@
+# Strip Tags
+- Removes HTML tags entirely from user input, 
+treating it purely as plain text.
+
+# Htmlspecialchars
+- converts special characters in user 
+input to their corresponding HTML entities

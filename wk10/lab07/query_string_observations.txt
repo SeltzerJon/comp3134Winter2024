@@ -1,0 +1,22 @@
+# 1
+- https://www.dictionary.com/browse/cybersecurity
+replaces cybersecurity to test which was input in the seach bar
+Display the word and definitions of it in
+https://www.dictionary.com/browse/test
+
+#2
+- https://www.dictionary.com/browse/cybersecurity
+replaces cybersecurity to asbas which was input in the seach bar
+Display the word and show it is not a word 
+https://www.dictionary.com/browse/asbas
+
+#3
+- https://www.dictionary.com/browse/cybersecurity
+replaces cybersecurity with the script that was input in the seach bar
+Display the script and show it is not a word 
+https://www.dictionary.com/browse/scriptInfo
+#4
+- https://www.dictionary.com/browse/cybersecurity
+adds the script to the cyber security and just runs the cybersecurity page
+Display the word and definitions of it in
+https://www.dictionary.com/browse/cybersecurity?term=sciptInfo
