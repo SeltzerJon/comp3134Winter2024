@@ -1,0 +1,3 @@
+CSRF protection is implemented using a session variable named confirmation.
+A random value is generated and stored in this session variable on the form page load.
+This random value is sent as a hidden form field named confirmation during form submission.

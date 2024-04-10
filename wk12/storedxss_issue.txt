@@ -1,0 +1,2 @@
+Lack of sanitization in storexss.php allows execution of 
+potentially malicious scripts or HTML code stored in storedxss.txt
